@@ -1,0 +1,31 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "product": "node dist/index.js",
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/index.js",
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@invariant-labs/sdk-eclipse": "^0.0.24",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.4",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
